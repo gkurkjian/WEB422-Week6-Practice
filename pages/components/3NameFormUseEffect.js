@@ -4,6 +4,7 @@ export default function NameFormUseEffect() {
 
     const [fullName, setFullName] = useState('');
 
+    // This is a delaying process. When the page it loads, in 1 second, will display the Homer Simpson in the form.
     useEffect(() => {
         setTimeout(() => {
             setFullName("Homer Simpson");
