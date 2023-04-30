@@ -18,7 +18,7 @@ export default function NameFormHookForm() {
             <h3>4.NameFormHookForm</h3>
 
             <form onSubmit={handleSubmit(submitForm)}>
-                fullName:<br />
+                Full Name:<br />
                 <input type="text" {...register('fullName')}></input> <br /><br />
                 <button type="submit">Submit</button>
             </form>
