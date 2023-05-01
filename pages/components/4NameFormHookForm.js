@@ -4,7 +4,7 @@ export default function NameFormHookForm() {
 
     const {register, handleSubmit} = useForm({
         defaultValues: {
-            fullName: 'Homer Simpson',
+            fullName: 'Homer Simpson',  // default properties included in useForm() by mentioning the defaultValues: { ... }
         },
     });
 
