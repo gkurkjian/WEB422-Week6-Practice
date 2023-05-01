@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react'
 
 export default function NameFormUseEffect() {
 
-    const [fullName, setFullName] = useState('');
+    const [fullName, setFullName] = useState('');  // as you see here we didn't included the default name. We'll include in useEffect() hook
 
     // This is a delaying process. When the page it loads, in 1 second, will display the Homer Simpson in the form.
     useEffect(() => {
         setTimeout(() => {
-            setFullName("Homer Simpson");
+            setFullName("Homer Simpson");  // here's the default name "Homer Simpson"
         }, 1000);
     }, []);
 
