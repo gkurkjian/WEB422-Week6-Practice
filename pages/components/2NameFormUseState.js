@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 export default function NameFormUseState() {
 
-    const [fullName, setFullName] = useState('Homer Simpson')
+    const [fullName, setFullName] = useState('Homer Simpson'); // the default name will be "Homer Simpson"
 
     function submitForm(e) {
         e.preventDefault();
